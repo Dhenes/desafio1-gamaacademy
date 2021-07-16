@@ -10,7 +10,6 @@ html {
 .section-container{
     height: 100vh;
     width: 100%;
-    display: flexbox;
     justify-content: center;
     align-items: center;
 }
@@ -22,15 +21,37 @@ html {
     background-repeat: no-repeat;
 }
 
+.pbackground{
+    background-image: url(../assets/pbg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .paragraph-1 {
+    font-size: x-large;
+    color: #ff6600;
+    text-align: center;
+}
+
+.paragraph-2 {
     font-size: x-large;
     color: #fff;
     text-align: center;
 }
 
-.paragraph-2 {
+.paragraph-3 {
     font-size: large;
     color: #fff;
+    text-align: center;
+}
+
+.celulares{
+    display: flex;
+    flex-direction: row;
+}
+
+.ctext {
     text-align: center;
 }
 
@@ -57,7 +78,6 @@ form{
 }
 
 footer{
-    height: 150px;
     padding: 25px;
     text-align: center;
     background-color: #000;
